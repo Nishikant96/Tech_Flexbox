@@ -7,9 +7,11 @@ const InputBox = () => {
   const [suggestion, setSuggestion] = useState(null);
   // console.log(suggestion, "suggestion");
   useEffect(() => {
-    const timer = setTimeout(() => {
-      searchAPI(text, setSuggestion);
-    }, 300);
+    let timer;
+    if (text.length > 2)
+      timer = setTimeout(() => {
+        searchAPI(text, setSuggestion);
+      }, 300);
     return () => {
       clearTimeout(timer);
     };
