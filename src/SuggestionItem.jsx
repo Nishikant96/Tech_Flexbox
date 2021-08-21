@@ -1,7 +1,5 @@
 const SuggestionItem = (props) => {
-  console.log(props.data, "contgetn");
   const data = props.data;
-
   return (
     <div class="container">
       <div class="card u-clearfix">
@@ -19,7 +17,7 @@ const SuggestionItem = (props) => {
           <br />
           <br />
           <br />
-          <a href="#/" class="card-button card-button-cta">
+          <a href="#" class="card-button card-button-cta">
             {data.Year}
           </a>
         </div>

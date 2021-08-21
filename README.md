@@ -1,3 +1,7 @@
 # Tech_Flexmoney
 
-Created with CodeSandbox
+##gh repo clone Nishikant96/Tech_Flexmoney
+
+Installation
+
+##npm i
